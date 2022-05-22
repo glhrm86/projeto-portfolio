@@ -34,20 +34,3 @@ a::before{
     width: 10px;
     margin-right: 10px;
 }
-
-.button{
-    display: inline-block;
-    background-color: #532A44;
-    height: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-    line-height: 60px;
-    box-shadow: 5px 5px 0px #241E24;
-    margin-right: 0px;
-    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48) opacity 200ms ease-in-out;
-}
-
-.button:hover {
-    transform: scale(1.08);
-    opacity: 0.95;
-}
