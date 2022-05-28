@@ -5,6 +5,10 @@
     box-shadow: 5px 5px 0px #241E24;
     margin-right: 0px;
     transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48) opacity 200ms ease-in-out;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
 }
 
 .button:hover {
