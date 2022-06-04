@@ -1,0 +1,25 @@
+.wrapper-projects {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-projects .icon-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper-projects .right {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 #241E24;
+}
+
+.wrapper-projects .icon {
+    display: block;
+    margin: auto;
+}
