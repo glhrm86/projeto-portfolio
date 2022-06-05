@@ -1,4 +1,4 @@
-.button{
+.main-button{
     font-family: 'Fira Code', monospace;
     display: inline-block;
     background-color: #532A44;
@@ -12,7 +12,7 @@
     
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     opacity: 0.95;
 }
