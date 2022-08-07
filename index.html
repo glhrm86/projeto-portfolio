@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
 
 </head>
 <body>
@@ -185,9 +186,15 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo expedita illum facilis, necessitatibus, velit aperiam debitis voluptatum dicta animi totam, enim sequi eveniet iure doloribus quod repellat amet eos!
             </p>
         </section>
-    <section class="main-section -bgGreen -bdFirst">
-        <h2 class="main-title -second">Contato</h2>
-    </section>
+        <form>
+            <label class="main-label" for="name">Nome</label>
+            <input type="text" name="" id="name">
+            <label class="main-label" for="email">E-mail</label>
+            <input type="email" name="" id="email">
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea name="" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     <footer class="main-footer">
         <a class="action" href="#" target="_blank">
             <img src="assets/img/icon-twitter.png" alt="Logo do Twitter em pixelart">
